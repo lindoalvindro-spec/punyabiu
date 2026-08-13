@@ -157,14 +157,14 @@ export default function GinghamBirthdayCard() {
     >
       {/* Section Header */}
       <div style={{ textAlign: 'center', marginBottom: '18px' }}>
-        <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#ff4d6d', fontWeight: '600', marginBottom: '4px' }}>
-          — SPECIAL BIRTHDAY CARD —
+        <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#38bdf8', fontWeight: '600', marginBottom: '4px' }}>
+          — SPECIAL LOVE CARD —
         </p>
         <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '4px' }}>
-          Interactive Gift Card 🎁
+          Interactive Love Card 💌
         </h3>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-          Tap the card to open Kornella Regina's birthday surprise ✨
+          Tap the card to open Biuuu's special secret message ✨
         </p>
       </div>
 
@@ -192,7 +192,7 @@ export default function GinghamBirthdayCard() {
             transformStyle: 'preserve-3d',
             borderRadius: '16px',
             boxShadow: isOpen
-              ? '0 20px 40px rgba(0,0,0,0.8), 0 0 30px rgba(180, 0, 30, 0.4)'
+              ? '0 20px 40px rgba(0,0,0,0.8), 0 0 30px rgba(0, 210, 255, 0.4)'
               : '0 14px 30px rgba(0,0,0,0.6), 0 0 20px rgba(0,0,0,0.4)',
             transition: 'box-shadow 0.4s ease',
           }}
@@ -203,46 +203,46 @@ export default function GinghamBirthdayCard() {
               position: 'absolute',
               inset: 0,
               borderRadius: '16px',
-              background: 'linear-gradient(135deg, #fff0f3 0%, #fff 50%, #ffe6ea 100%)',
-              color: '#800016',
+              background: 'linear-gradient(135deg, #f0f9ff 0%, #ffffff 50%, #e0f2fe 100%)',
+              color: '#0369a1',
               padding: '20px 18px',
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
-              boxShadow: 'inset 0 0 15px rgba(180, 0, 30, 0.1)',
-              border: '2px solid #ffccd5',
+              boxShadow: 'inset 0 0 15px rgba(0, 210, 255, 0.1)',
+              border: '2px solid #bae6fd',
               overflow: 'hidden',
             }}
           >
             {/* Background Decorative Hearts */}
             <div style={{ position: 'absolute', top: '10px', right: '12px', opacity: 0.15, fontSize: '3.5rem' }}>
-              💖
+              💙
             </div>
 
             {/* Inner Content */}
             <div ref={innerContentRef} style={{ opacity: 0, position: 'relative', zIndex: 2 }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-                <Sparkles size={18} color="#b4001e" />
-                <span style={{ fontSize: '0.82rem', fontWeight: '700', letterSpacing: '1px', color: '#b4001e' }}>
-                  A SPECIAL MESSAGE FOR KORNELLA REGINA
+                <Sparkles size={18} color="#0284c7" />
+                <span style={{ fontSize: '0.82rem', fontWeight: '700', letterSpacing: '1px', color: '#0284c7' }}>
+                  A SPECIAL MESSAGE FOR BIUUU
                 </span>
               </div>
 
-              <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', color: '#73000b', marginBottom: '8px' }}>
-                Happy 21st Birthday, My Favorite Person! 🎂✨
+              <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#0369a1', marginBottom: '8px' }}>
+                I'm So Glad I Met You 💙✨
               </h4>
 
-              <p style={{ fontSize: '0.85rem', lineHeight: '1.55', color: '#590008', fontWeight: '500' }}>
-                You bring so much joy, love, and sunshine into my world. May your 21st year be filled with endless happiness, good health, and all your heart's desires! 💕
+              <p style={{ fontSize: '0.85rem', lineHeight: '1.55', color: '#0c4a6e', fontWeight: '500' }}>
+                Dari pertama kali kenal dan ketemu kamu, rasanya ada kenyamanan yang tulus banget. Makasih udah selalu ada dan bikin hari-hariku jadi lebih berwarna. I truly cherish you! 🤍
               </p>
             </div>
 
             {/* Inner Footer */}
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'relative', zIndex: 2 }}>
-              <span style={{ fontSize: '0.78rem', fontStyle: 'italic', color: '#b4001e', fontWeight: '600' }}>
-                Made with all my love 🤍
+              <span style={{ fontSize: '0.78rem', fontStyle: 'italic', color: '#0284c7', fontWeight: '600' }}>
+                With all my sincerity 🤍
               </span>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '0.75rem', color: '#73000b', fontWeight: '700' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '0.75rem', color: '#0369a1', fontWeight: '700' }}>
                 <span>Tap to close</span>
                 <ChevronRight size={14} />
               </div>
@@ -263,7 +263,7 @@ export default function GinghamBirthdayCard() {
                   zIndex: 3,
                 }}
               >
-                ❤️
+                💙
               </div>
             ))}
           </div>
@@ -284,12 +284,12 @@ export default function GinghamBirthdayCard() {
               zIndex: 10,
             }}
           >
-            {/* LEFT PANEL: Deep Crimson Red */}
+            {/* LEFT PANEL: Deep Royal Midnight Blue */}
             <div
               style={{
                 width: '50%',
                 height: '100%',
-                background: 'linear-gradient(150deg, #b4001e 0%, #8b0014 60%, #60000d 100%)',
+                background: 'linear-gradient(150deg, #0284c7 0%, #0369a1 60%, #0c4a6e 100%)',
                 padding: '16px 10px 14px',
                 display: 'flex',
                 flexDirection: 'column',
@@ -316,33 +316,42 @@ export default function GinghamBirthdayCard() {
                 This special gift belongs to you!
               </p>
 
-              {/* Center Circular Photo Cutout with Glow Frame */}
+              {/* Center Heart Emblem with Glowing Ring (No Photo) */}
               <div
                 ref={photoRef}
                 style={{
                   position: 'relative',
-                  width: '95px',
-                  height: '95px',
+                  width: '90px',
+                  height: '90px',
                   borderRadius: '50%',
                   padding: '3px',
-                  background: 'linear-gradient(135deg, #ffffff 0%, #ffccd5 100%)',
-                  boxShadow: '0 8px 20px rgba(0,0,0,0.5), 0 0 15px rgba(255, 255, 255, 0.5)',
+                  background: 'linear-gradient(135deg, #38bdf8 0%, #00d2ff 50%, #ffffff 100%)',
+                  boxShadow: '0 8px 20px rgba(0,0,0,0.5), 0 0 15px rgba(0, 210, 255, 0.6)',
                   transformStyle: 'preserve-3d',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
                 }}
               >
-                <img
-                  src="/kornela 1.jpeg"
-                  alt="Kornella Regina"
+                <div
                   style={{
                     width: '100%',
                     height: '100%',
                     borderRadius: '50%',
-                    objectFit: 'cover',
-                    display: 'block',
+                    background: 'radial-gradient(circle, #0369a1 0%, #0c4a6e 100%)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center',
                   }}
-                />
+                >
+                  <Heart size={36} fill="#38bdf8" color="#ffffff" style={{ filter: 'drop-shadow(0 0 10px #00d2ff)' }} />
+                  <span style={{ fontSize: '0.62rem', color: '#e0f2fe', fontWeight: '700', marginTop: '2px', letterSpacing: '0.5px' }}>
+                    FOR BIUUU
+                  </span>
+                </div>
                 
-                {/* Mini Heart Badge Overlay */}
+                {/* Mini Star Badge Overlay */}
                 <div
                   style={{
                     position: 'absolute',
@@ -358,7 +367,7 @@ export default function GinghamBirthdayCard() {
                     boxShadow: '0 3px 6px rgba(0,0,0,0.3)',
                   }}
                 >
-                  <Heart size={13} fill="#b4001e" color="#b4001e" />
+                  <Sparkles size={13} color="#0284c7" />
                 </div>
               </div>
 
@@ -375,15 +384,15 @@ export default function GinghamBirthdayCard() {
               </div>
             </div>
 
-            {/* RIGHT PANEL: Authentic Red & White Gingham Plaid Pattern */}
+            {/* RIGHT PANEL: Authentic Blue & White Gingham Plaid Pattern */}
             <div
               style={{
                 width: '50%',
                 height: '100%',
                 backgroundColor: '#ffffff',
                 backgroundImage: `
-                  linear-gradient(90deg, rgba(180, 0, 30, 0.42) 50%, transparent 50%),
-                  linear-gradient(rgba(180, 0, 30, 0.42) 50%, transparent 50%)
+                  linear-gradient(90deg, rgba(2, 132, 199, 0.35) 50%, transparent 50%),
+                  linear-gradient(rgba(2, 132, 199, 0.35) 50%, transparent 50%)
                 `,
                 backgroundSize: '22px 22px',
                 display: 'flex',
@@ -417,7 +426,7 @@ export default function GinghamBirthdayCard() {
                   <path
                     d={generateStarburstPath()}
                     fill="#ffffff"
-                    stroke="#ffe6ea"
+                    stroke="#bae6fd"
                     strokeWidth="2"
                   />
                 </svg>
@@ -429,7 +438,7 @@ export default function GinghamBirthdayCard() {
                     zIndex: 2,
                     textAlign: 'center',
                     padding: '12px 10px',
-                    color: '#a80517',
+                    color: '#0284c7',
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
@@ -443,15 +452,15 @@ export default function GinghamBirthdayCard() {
                       fontWeight: '800',
                       lineHeight: '1.25',
                       letterSpacing: '0.2px',
-                      color: '#900014',
+                      color: '#0369a1',
                     }}
                   >
-                    Happy Birthday<br />
-                    My Favorite<br />
-                    Person
+                    Specially For<br />
+                    Biuuu<br />
+                    With Love
                   </p>
                   <div style={{ marginTop: '3px' }}>
-                    <Heart size={14} fill="#a80517" color="#a80517" style={{ filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.2))' }} />
+                    <Heart size={14} fill="#0284c7" color="#0284c7" style={{ filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.2))' }} />
                   </div>
                 </div>
               </div>

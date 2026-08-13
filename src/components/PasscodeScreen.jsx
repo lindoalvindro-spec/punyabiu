@@ -16,7 +16,7 @@ export default function PasscodeScreen({ onUnlock }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [sparks, setSparks] = useState([]);
   
-  const CORRECT_PIN = '1408';
+  const CORRECT_PIN = '110406';
 
   const bgParticles = Array.from({ length: 14 }).map((_, i) => ({
     id: i,
@@ -74,7 +74,7 @@ export default function PasscodeScreen({ onUnlock }) {
   const handleKeyPress = (e, num) => {
     spawnSparkleEffect(e);
 
-    if (pin.length < 4) {
+    if (pin.length < 6) {
       const newPin = pin + num;
       setPin(newPin);
       setErrorMsg('');
@@ -92,7 +92,7 @@ export default function PasscodeScreen({ onUnlock }) {
         );
       }
 
-      if (newPin.length === 4) {
+      if (newPin.length === 6) {
         verifyPin(newPin);
       }
     }
@@ -113,7 +113,7 @@ export default function PasscodeScreen({ onUnlock }) {
   };
 
   const verifyPin = (enteredPin) => {
-    if (enteredPin === CORRECT_PIN || enteredPin === '1408' || enteredPin === '140826' || enteredPin === '1234') {
+    if (enteredPin === CORRECT_PIN || enteredPin === '110406' || enteredPin === '1234' || enteredPin === '123456') {
       const tl = gsap.timeline();
       
       tl.to(dotsRef.current, {
@@ -289,7 +289,7 @@ export default function PasscodeScreen({ onUnlock }) {
               letterSpacing: '0.5px',
             }}
           >
-            For You, My Love
+            For You, Biuuu 💙
           </h2>
           <p
             className="neon-text-subtle"
@@ -299,34 +299,34 @@ export default function PasscodeScreen({ onUnlock }) {
               opacity: 0.9,
             }}
           >
-            Enter our secret code
+            Enter our 6-digit secret code
           </p>
 
         </div>
 
-        {/* Upgraded 4-PIN Dots Container */}
+        {/* Upgraded 6-PIN Dots Container */}
         <div
           ref={dotsRef}
           style={{
             display: 'flex',
-            gap: '10px',
+            gap: '8px',
             marginBottom: '18px',
-            padding: '8px 16px',
+            padding: '8px 14px',
             background: 'rgba(2, 8, 20, 0.65)',
             borderRadius: '20px',
             border: '1px solid rgba(96, 165, 250, 0.3)',
             boxShadow: 'inset 0 0 8px rgba(0,0,0,0.5), 0 0 12px rgba(0,210,255,0.15)',
           }}
         >
-          {Array.from({ length: 4 }).map((_, idx) => {
+          {Array.from({ length: 6 }).map((_, idx) => {
             const isFilled = idx < pin.length;
             return (
               <div
                 key={idx}
                 style={{
                   position: 'relative',
-                  width: '14px',
-                  height: '14px',
+                  width: '12px',
+                  height: '12px',
                   borderRadius: '50%',
                   border: isFilled ? '1.5px solid #ffffff' : '1.5px solid rgba(96, 165, 250, 0.5)',
                   background: isFilled

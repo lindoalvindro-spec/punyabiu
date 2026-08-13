@@ -380,7 +380,7 @@ export default function GiftUnboxing({ onOpen }) {
         }}
       >
         <Heart size={14} fill="var(--neon-pink)" color="var(--neon-pink)" />
-        <span>Sent with special love for Kornella Regina 💗</span>
+        <span>Sent with all my feelings for Biuuu 💙</span>
         <Heart size={14} fill="var(--neon-pink)" color="var(--neon-pink)" />
       </div>
     </div>

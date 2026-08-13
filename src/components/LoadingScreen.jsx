@@ -297,7 +297,7 @@ export default function LoadingScreen({ onComplete }) {
             lineHeight: '1.3',
           }}
         >
-          {isFinished ? 'Ready For Something Special' : 'Preparing something special for you...'}
+          {isFinished ? 'Ready For Something Special ✨' : 'Preparing something special for you...'}
         </h2>
 
         <p
@@ -309,7 +309,7 @@ export default function LoadingScreen({ onComplete }) {
             marginBottom: '20px',
           }}
         >
-          {isFinished ? 'Click the button below to start ✨' : 'Made with love & special memories 💙'}
+          {isFinished ? 'Click the button below to continue 💙' : 'Made with genuine thoughts & sweet little moments 💙'}
         </p>
 
         {/* Neon Progress Bar Line */}
