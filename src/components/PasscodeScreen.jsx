@@ -16,7 +16,7 @@ export default function PasscodeScreen({ onUnlock }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [sparks, setSparks] = useState([]);
   
-  const CORRECT_PIN = '1405';
+  const CORRECT_PIN = '1408';
 
   const bgParticles = Array.from({ length: 14 }).map((_, i) => ({
     id: i,
@@ -113,7 +113,7 @@ export default function PasscodeScreen({ onUnlock }) {
   };
 
   const verifyPin = (enteredPin) => {
-    if (enteredPin === CORRECT_PIN || enteredPin === '1405' || enteredPin === '140505' || enteredPin === '1234') {
+    if (enteredPin === CORRECT_PIN || enteredPin === '1408' || enteredPin === '140826' || enteredPin === '1234') {
       const tl = gsap.timeline();
       
       tl.to(dotsRef.current, {

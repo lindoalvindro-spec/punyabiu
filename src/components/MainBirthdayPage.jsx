@@ -144,7 +144,7 @@ function LetterTypewriter() {
           }}
         >
           <span>💙</span>
-          <span>14 Mei</span>
+          <span>14 Agustus</span>
           <span>💙</span>
         </div>
       </div>
@@ -186,7 +186,7 @@ function LetterTypewriter() {
             }}
           >
             <span style={{ color: '#60a5fa', fontSize: '0.85rem' }}>With all my love,</span><br />
-            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#38bdf8', textShadow: '0 0 10px rgba(56,189,248,0.5)' }}>Revan 🤍</span>
+            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#38bdf8', textShadow: '0 0 10px rgba(56,189,248,0.5)' }}>Abhi 🤍</span>
           </div>
         )}
       </div>
@@ -441,7 +441,7 @@ export default function MainBirthdayPage() {
   const vinylRef = useRef(null);
 
   const playlist = [
-    { id: 1, title: 'Give Me Your Forever', artist: 'Zack Tabudlo', duration: '4:04', src: '/Give Me Your Forever_spotdown.org.mp3' },
+    { id: 1, title: 'Shape of My Heart', artist: 'Backstreet Boys', duration: '3:50', src: '/Shape of My Heart_spotdown.org.mp3' },
   ];
 
   // 2. Bouquet Flowers Compliment Messages State
@@ -525,7 +525,7 @@ export default function MainBirthdayPage() {
     { 
       id: 6, 
       title: 'Happy 21st Birthday 🌷', 
-      date: '14 Mei Special', 
+      date: '14 Agustus Special', 
       location: 'Our Journey',
       img: '/kornela 6.jpeg',
       rotation: '2deg'
@@ -995,7 +995,7 @@ export default function MainBirthdayPage() {
             marginBottom: '28px',
           }}
         >
-          HAPPY 21ST BIRTHDAY &nbsp; 14 MEI 🤍
+          HAPPY 21ST BIRTHDAY &nbsp; 14 AGUSTUS 🤍
         </div>
 
         {/* Scroll Down Bounce Arrow */}
