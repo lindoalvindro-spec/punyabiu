@@ -164,7 +164,7 @@ export default function GinghamBirthdayCard() {
           Interactive Gift Card 🎁
         </h3>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-          Tap the card to open Joe setioso's birthday surprise ✨
+          Tap the card to open Kornella Regina's birthday surprise ✨
         </p>
       </div>
 
@@ -224,16 +224,16 @@ export default function GinghamBirthdayCard() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                 <Sparkles size={18} color="#b4001e" />
                 <span style={{ fontSize: '0.82rem', fontWeight: '700', letterSpacing: '1px', color: '#b4001e' }}>
-                  A SPECIAL MESSAGE FOR JOE SETIOSO
+                  A SPECIAL MESSAGE FOR KORNELLA REGINA
                 </span>
               </div>
 
               <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', color: '#73000b', marginBottom: '8px' }}>
-                Happy 20th Birthday, My Favorite Person! 🎂✨
+                Happy 21st Birthday, My Favorite Person! 🎂✨
               </h4>
 
               <p style={{ fontSize: '0.85rem', lineHeight: '1.55', color: '#590008', fontWeight: '500' }}>
-                You bring so much joy, love, and sunshine into my world. May your 20s be filled with endless smiles, health, and all your heart's desires! 💕
+                You bring so much joy, love, and sunshine into my world. May your 21st year be filled with endless happiness, good health, and all your heart's desires! 💕
               </p>
             </div>
 
@@ -331,8 +331,8 @@ export default function GinghamBirthdayCard() {
                 }}
               >
                 <img
-                  src="/joy 1.jpeg"
-                  alt="Joy holding flowers"
+                  src="/kornela 1.jpeg"
+                  alt="Kornella Regina"
                   style={{
                     width: '100%',
                     height: '100%',

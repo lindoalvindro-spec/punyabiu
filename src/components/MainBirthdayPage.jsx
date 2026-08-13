@@ -17,15 +17,15 @@ function LetterTypewriter() {
   const [displayedLines, setDisplayedLines] = useState([]);
 
   const letterLines = [
-    { text: "Happy birthday, sayang 🤍", style: "greeting" },
+    { text: "Happy 21st birthday, Kornella Regina 🤍", style: "greeting" },
     { text: "", style: "spacer" },
-    { text: "Semoga di umur kamu yang sekarang, kamu selalu diberi kesehatan, kebahagiaan, rezeki yang lancar, dan dimudahkan dalam segala urusan.", style: "body" },
+    { text: "Semoga di umur kamu yang ke-21 ini, kamu selalu diberikan kesehatan, kebahagiaan, rezeki yang berkah, dan kemudahan dalam meraih setiap impianmu.", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Makasih ya sudah hadir di hidup aku, sudah selalu berusaha ada, nemenin aku, dan ngasih banyak hal kecil yang ternyata berarti banget buat aku. Aku mungkin belum bisa kasih kamu kado yang besar sekarang, tapi semoga ucapan kecil ini bisa jadi salah satu hal yang bikin kamu senyum hari ini. 🥹🤍", style: "body" },
+    { text: "Thank you so much for being in my life. Makasih udah selalu ada, menemani hari-hariku, and giving me so many sweet little moments that mean the world to me. I might not be able to give you a grand gift right now, tapi semoga ucapan sederhana ini bisa bikin kamu tersenyum hari ini. 🥹🤍", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Semoga kita bisa terus sama-sama, saling jaga, saling support, dan belajar jadi lebih baik satu sama lain.", style: "body" },
+    { text: "May we keep growing together, supporting each other, and learning to be better partners day by day.", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Happy birthday, my love. I love you. 🤍", style: "ps" },
+    { text: "Happy 21st birthday, my favorite person. I love you endlessly. 🤍", style: "ps" },
   ];
 
   // Trigger typewriter when scrolled into view
@@ -144,7 +144,7 @@ function LetterTypewriter() {
           }}
         >
           <span>💙</span>
-          <span>13 Agustus</span>
+          <span>14 Mei</span>
           <span>💙</span>
         </div>
       </div>
@@ -313,7 +313,7 @@ function FarewellSection({ onOpenCake }) {
           fontWeight: '400',
         }}
       >
-        Happy 20th Birthday, Joe setioso 🤍. Semoga di umur 20 ini kamu selalu diberi kesehatan, kebahagiaan, dan kemudahan dalam segala urusan. I am grateful every single day to have you in my life 💗
+        Happy 21st Birthday, Kornella Regina 🤍. Semoga di umur 21 ini kamu selalu diberi kesehatan, kebahagiaan, dan kemudahan dalam segala urusan. I am grateful every single day to have you in my life 💗
       </p>
 
       {/* Center Flower Bucket PNG Ornament */}
@@ -385,75 +385,7 @@ function FarewellSection({ onOpenCake }) {
   );
 }
 
-/* ====== PERSONAL MESSAGE CARD SUB-COMPONENT ====== */
-function PersonalMessageCard() {
-  const cardRef = useRef(null);
 
-  return (
-    <div
-      ref={cardRef}
-      style={{
-        background: 'linear-gradient(165deg, rgba(10, 30, 63, 0.85) 0%, rgba(4, 16, 38, 0.92) 100%)',
-        borderRadius: '28px',
-        border: '1.5px solid rgba(96, 165, 250, 0.4)',
-        padding: '26px 20px',
-        textAlign: 'center',
-        position: 'relative',
-        boxShadow: '0 18px 40px rgba(0,0,0,0.7), inset 0 0 20px rgba(0, 210, 255, 0.1)',
-        marginBottom: '36px',
-        overflow: 'hidden',
-      }}
-    >
-      {/* Decorative Glow */}
-      <div
-        style={{
-          position: 'absolute',
-          top: '-30px',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          width: '180px',
-          height: '180px',
-          borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(0, 210, 255, 0.2) 0%, transparent 70%)',
-          filter: 'blur(20px)',
-          pointerEvents: 'none',
-        }}
-      />
-
-      <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#38bdf8', fontWeight: '600', marginBottom: '6px' }}>
-        — PERSONAL MESSAGE —
-      </p>
-      
-      <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.45rem', color: '#ffffff', marginBottom: '16px' }}>
-        A Heartfelt Note For You 🤍
-      </h3>
-
-      <div
-        style={{
-          padding: '20px 18px',
-          background: 'rgba(255, 255, 255, 0.05)',
-          borderRadius: '20px',
-          border: '1px solid rgba(96, 165, 250, 0.25)',
-          boxShadow: 'inset 0 0 15px rgba(0, 210, 255, 0.08)',
-        }}
-      >
-        <p
-          style={{
-            fontSize: '0.94rem',
-            lineHeight: '1.75',
-            color: '#e0f2fe',
-            fontStyle: 'italic',
-            fontWeight: '400',
-            margin: 0,
-            fontFamily: 'var(--font-body)',
-          }}
-        >
-          "Aku selalu menghargai setiap effort dan hal kecil yang kamu lakukan buat aku. Dan waktu kamu bilang kata-kataku pernah membuatmu mulai menjaga sholat lagi, jujur aku terharu banget. Semoga kehadiranku selalu membawa hal baik buat kamu. 🤍"
-        </p>
-      </div>
-    </div>
-  );
-}
 
 export default function MainBirthdayPage() {
   const containerRef = useRef(null);
@@ -465,7 +397,7 @@ export default function MainBirthdayPage() {
   const dateRef = useRef(null);
   
   // Typewriter effect state
-  const fullRomanticText = "Scroll pelan-pelan yaa, aku punya sedikit sesuatu buat kamu 🥹🤍";
+  const fullRomanticText = "Scroll pelan-pelan ya, I prepared something special for you 🥹🤍";
   const [typedText, setTypedText] = useState('');
   const [isTypingDone, setIsTypingDone] = useState(false);
 
@@ -555,7 +487,7 @@ export default function MainBirthdayPage() {
       title: 'My Prettiest Girl 💖', 
       date: 'Special Moment', 
       location: 'Our Journey',
-      img: '/joy 1.jpeg',
+      img: '/kornela 1.jpeg',
       rotation: '-3deg'
     },
     { 
@@ -563,7 +495,7 @@ export default function MainBirthdayPage() {
       title: 'Sweetest Smile ✨', 
       date: 'Special Moment', 
       location: 'Our Journey',
-      img: '/joy 2.jpeg',
+      img: '/kornela 2.jpeg',
       rotation: '2.5deg'
     },
     { 
@@ -571,7 +503,7 @@ export default function MainBirthdayPage() {
       title: 'Precious Memories 🌸', 
       date: 'Special Moment', 
       location: 'Our Journey',
-      img: '/joy 3.jpeg',
+      img: '/kornela 3.jpeg',
       rotation: '-2deg'
     },
     { 
@@ -579,7 +511,7 @@ export default function MainBirthdayPage() {
       title: 'Favorite Moments 💕', 
       date: 'Special Moment', 
       location: 'Our Journey',
-      img: '/joy 4.jpeg',
+      img: '/kornela 4.jpeg',
       rotation: '3deg'
     },
     { 
@@ -587,16 +519,24 @@ export default function MainBirthdayPage() {
       title: 'Forever & Always 💫', 
       date: 'Special Moment', 
       location: 'Our Journey',
-      img: '/joy 5.jpeg',
+      img: '/kornela 5.jpeg',
       rotation: '-1.5deg'
     },
     { 
       id: 6, 
-      title: 'Happy 20th Birthday 🌷', 
-      date: '13 Agustus Special', 
+      title: 'Happy 21st Birthday 🌷', 
+      date: '14 Mei Special', 
       location: 'Our Journey',
-      img: '/joy 6.jpeg',
+      img: '/kornela 6.jpeg',
       rotation: '2deg'
+    },
+    { 
+      id: 7, 
+      title: 'Pure Happiness 💙', 
+      date: 'Special Day', 
+      location: 'Our Journey',
+      img: '/kornela 7.jpeg',
+      rotation: '-2.5deg'
     },
   ];
 
@@ -944,7 +884,7 @@ export default function MainBirthdayPage() {
           <span>🤍</span>
         </div>
 
-        {/* Title: Happy Birthday, My Love 🤍 Joe Setioso */}
+        {/* Title: Happy Birthday, My Love 🤍 Kornella Regina */}
         <div
           style={{
             fontFamily: 'var(--font-display)',
@@ -992,7 +932,7 @@ export default function MainBirthdayPage() {
               textShadow: '0 0 20px rgba(255, 255, 255, 0.6)',
             }}
           >
-            Joe Setioso
+            Kornella Regina
           </div>
         </div>
 
@@ -1055,7 +995,7 @@ export default function MainBirthdayPage() {
             marginBottom: '28px',
           }}
         >
-          HAPPY 20TH BIRTHDAY &nbsp; 13 AGUSTUS 🤍
+          HAPPY 21ST BIRTHDAY &nbsp; 14 MEI 🤍
         </div>
 
         {/* Scroll Down Bounce Arrow */}
@@ -1303,8 +1243,7 @@ export default function MainBirthdayPage() {
       {/* SECTION 3: A LETTER FOR YOU — TYPEWRITER EFFECT */}
       <LetterTypewriter />
 
-      {/* SECTION 3.5: PERSONAL MESSAGE CARD */}
-      <PersonalMessageCard />
+
 
       {/* SECTION 4: POLAROID PHOTO GALLERY */}
       <div style={{ textAlign: 'center', marginBottom: '36px' }}>
@@ -1640,7 +1579,7 @@ export default function MainBirthdayPage() {
                 zIndex: 5,
               }}
             >
-              📜 SPECIAL NOTE FOR JOE SETIOSO 💙
+              📜 SPECIAL NOTE FOR KORNELLA REGINA 💙
             </div>
 
             <p style={{ marginTop: '4px', fontFamily: 'var(--font-body)' }}>
@@ -1772,10 +1711,10 @@ export default function MainBirthdayPage() {
           >
             <div style={{ fontSize: '3rem', marginBottom: '10px' }}>💖</div>
             <h3 className="neon-text" style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '8px' }}>
-              Happy 20th Birthday!
+              Happy 21st Birthday!
             </h3>
             <p style={{ fontSize: '0.9rem', color: '#e0f2fe', marginBottom: '20px' }}>
-              The most special Joe setioso 💗
+              The most special Kornella Regina 💗
             </p>
 
             <button

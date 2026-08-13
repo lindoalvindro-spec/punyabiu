@@ -16,7 +16,7 @@ export default function PasscodeScreen({ onUnlock }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [sparks, setSparks] = useState([]);
   
-  const CORRECT_PIN = '1308';
+  const CORRECT_PIN = '1405';
 
   const bgParticles = Array.from({ length: 14 }).map((_, i) => ({
     id: i,
@@ -113,7 +113,7 @@ export default function PasscodeScreen({ onUnlock }) {
   };
 
   const verifyPin = (enteredPin) => {
-    if (enteredPin === CORRECT_PIN || enteredPin === '1308' || enteredPin === '130826' || enteredPin === '1234') {
+    if (enteredPin === CORRECT_PIN || enteredPin === '1405' || enteredPin === '140505' || enteredPin === '1234') {
       const tl = gsap.timeline();
       
       tl.to(dotsRef.current, {
@@ -301,17 +301,7 @@ export default function PasscodeScreen({ onUnlock }) {
           >
             Enter our secret code
           </p>
-          <p
-            style={{
-              fontSize: '0.72rem',
-              color: '#38bdf8',
-              opacity: 0.75,
-              fontStyle: 'italic',
-              marginTop: '4px',
-            }}
-          >
-            Clue: tanggal & bulan ultah 💗
-          </p>
+
         </div>
 
         {/* Upgraded 4-PIN Dots Container */}
