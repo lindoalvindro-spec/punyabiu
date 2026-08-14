@@ -291,17 +291,22 @@ export default function PasscodeScreen({ onUnlock }) {
           >
             For You, Biuuu 💙
           </h2>
-          <p
-            className="neon-text-subtle"
+          <div
             style={{
-              fontSize: '0.8rem',
-              color: '#e0f2fe',
-              opacity: 0.9,
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              padding: '3px 12px',
+              background: 'rgba(0, 210, 255, 0.12)',
+              border: '1px solid rgba(96, 165, 250, 0.3)',
+              borderRadius: '14px',
+              marginTop: '4px',
             }}
           >
-            Enter our 6-digit secret code
-          </p>
-
+            <span style={{ fontSize: '0.78rem', color: '#7dd3fc', fontWeight: '500' }}>
+              Clue: Tanggal lahir, bulan, tahun
+            </span>
+          </div>
         </div>
 
         {/* Upgraded 6-PIN Dots Container */}
